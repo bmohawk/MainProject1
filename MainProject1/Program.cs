@@ -1,4 +1,5 @@
 ﻿using System;
+using Lib1;
 
 namespace MainProject1
 {
@@ -6,7 +7,8 @@ namespace MainProject1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var lib1 = new Lib1Class1();
+            Console.WriteLine($"Lib1 DoWork(): {lib1.DoWork()}");
         }
     }
 }
