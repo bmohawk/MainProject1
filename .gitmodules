@@ -1,0 +1,3 @@
+[submodule "Lib1"]
+	path = Lib1
+	url = https://github.com/bmohawk/Lib1
